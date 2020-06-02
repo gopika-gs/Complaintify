@@ -4,7 +4,7 @@ error_reporting("E_NOTICE");
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>COMPLAINT MANAGEMENT SYSTEM WEBSITE FREE</title>
+	<title>HELLO</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="loans HTML Template">
 	<meta name="keywords" content="loans, html">
