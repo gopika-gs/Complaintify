@@ -1,10 +1,10 @@
 <?php
-error_reporting("NOTICE");
+error_reporting("E_NOTICE");
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>COMPLAINT MANAGEMENT SYSTEM</title>
+	<title>COMPLAINT MANAGEMENT SYSTEM </title>
 	<meta charset="UTF-8">
 	<meta name="description" content="loans HTML Template">
 	<meta name="keywords" content="loans, html">
@@ -26,7 +26,6 @@ error_reporting("NOTICE");
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
 
-
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -37,19 +36,22 @@ error_reporting("NOTICE");
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
-	</div>
+	</div>/
 
 	<!-- Header Section -->
 	<header class="header-section">
-		<a href="index.php">
-<font face="Monotype Corsiva" color="white" size="+5">
-<center>COMPLAINT MANAGEMENT SYSTEM</center> </font>
+	<div class="container">
+	<div class="header_box">
+	<div class="logo"><img src="img/ulogo.jpg" width="80" height="80"><a href="#"><strong style="font-size:24px"><font face="Monotype Corsiva" color="white" size="+5">COMPLAINT MANAGEMENT SYSTEM</font></strong></a></div>
+	
+
+	<a href="index.php" class="site-logo">
+					</a>
 		</a>
 		<nav class="header-nav">
 			<ul class="main-menu">
 				<li><a href="index.php" class="active">Home</a></li>
-				
-						<li><a href="index.php?dynamic=aboutus">About</a></li>
+				<li><a href="index.php?dynamic=aboutus">About</a></li>
 						<li><a href="index.php?dynamic=contact">Contact </a></li>
 						<li><a href="index.php?dynamic=feedback">Feedback</a></li>
 					</ul>
@@ -82,12 +84,19 @@ error_reporting("NOTICE");
 					<div class="hs-text">					</div>
 				</div>
 				<div class="col-lg-6">
-					<form class="hero-form">
-						<input type="text" placeholder="Your Name">
-						<input type="password" placeholder="Your Password">
-				<button class="site-btn" >Login </button>
+					<form class="hero-form" method="post" enctype="multipart/form-data">
+						<input type="text" placeholder="Your Name" name="username">
+						<input type="password" placeholder="Your Password" name="password" />
+						<select name="type">
+						<option>user</option>
+						<option>admin</option>
+						<option>panchayath</option>
+						<option>coperation</option>
+						<option>muncipality</option>
+						</select><br><br><br>
+				<center><button class="site-btn" name="login" type="submit">Login </button></center><br>
          <button class="site-btn"><a href="index.php?dynamic=forget">Forget password ?</a></button>
-		 <br><br>
+		 <br /><br />
 		<button class="site-btn">Don't have an account?<a href="index.php?dynamic=signup">Sign up</a></button>
 					</form>
 					</div>
@@ -238,46 +247,120 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</body>
 </html>
 <?php
-					if($_POST['login'])
+include_once("phpfiles/connection.php");
+					if(isset($_POST['login']))
 					{
 						$user=$_POST['username'];
 						$pass=$_POST['password'];
-						$sql="select * from admin where username='$user' and password='$pass'";
-						$result=mysql_query($sql);
-						if(mysql_num_rows($result)>0)
+						$type=$_POST['type'];
+						if($type == 'admin')
 						{
-							while($row=mysql_fetch_array($result))
+							$sql="select * from admin where username='$user' and password='$pass'";
+							$result=mysqli_query($conn,$sql);
+							if(mysqli_num_rows($result)>0)
 							{
+								while($row=mysqli_fetch_array($result))
+									{
+										$_SESSION['username']=$row['username'];
+										echo"<script>location.href='admin.php'</script>";
+									}
 								
-									
-									$_SESSION['username']=$row['username'];
-									echo"<script>location.href='adminhome.php'</script>";
+							}
+							
+							else
+							{
+								echo"<script>alert('Does not exist the account')</script>";
+								echo"<script>location.href='index.php'</script>";
 							}
 						}
-				
-						else if(mysql_num_rows($res)>0)
+						else if($type == 'user')
 						{
-							while($r=mysql_fetch_array($res))
+							$sql="select * from admin where username='$user' and password='$pass'";
+							$result=mysqli_query($conn,$sql);
+							if(mysqli_num_rows($result)>0)
 							{
-									$_SESSION['username']=$r['username'];
-									$_SESSION['regno']=$r['regno'];
-									echo"<script>location.href='userhome.php'</script>";
-							}
-						}
-						else if(mysql_num_rows($rw)>0)
-						{
-							while($r=mysql_fetch_array($rw))
-							{
+								while($row=mysqli_fetch_array($result))
+									{
+										$_SESSION['username']=$row['username'];
+										echo"<script>location.href='user.php'</script>";
+									}
 								
-									$_SESSION['college']=$r['college'];
-									$_SESSION['username']=$r['username'];
-									echo"<script>location.href='facultyhome.php'</script>";
+							}
+							
+							else
+							{
+								echo"<script>alert('Does not exist the account')</script>";
+								echo"<script>location.href='index.php'</script>";
 							}
 						}
+						else if($type == 'panchayath')
+						{
+							$sql="select * from admin where username='$user' and password='$pass'";
+							$result=mysqli_query($conn,$sql);
+							if(mysqli_num_rows($result)>0)
+							{
+								while($row=mysqli_fetch_array($result))
+									{
+										$_SESSION['username']=$row['username'];
+										echo"<script>location.href='panchayath.php'</script>";
+									}
+								
+							}
+							
+							else
+							{
+								echo"<script>alert('Does not exist the account')</script>";
+								echo"<script>location.href='index.php'</script>";
+							}
+						}
+						else if($type == 'muncipality')
+						{
+							$sql="select * from admin where username='$user' and password='$pass'";
+							$result=mysqli_query($conn,$sql);
+							if(mysqli_num_rows($result)>0)
+							{
+								while($row=mysqli_fetch_array($result))
+									{
+										$_SESSION['username']=$row['username'];
+										echo"<script>location.href='user.php'</script>";
+									}
+								
+							}
+							
+							else
+							{
+								echo"<script>alert('Does not exist the account')</script>";
+								echo"<script>location.href='index.php'</script>";
+							}
+						}
+						else if($type == 'coporation')
+						{
+							$sql="select * from admin where username='$user' and password='$pass'";
+							$result=mysqli_query($conn,$sql);
+							if(mysqli_num_rows($result)>0)
+							{
+								while($row=mysqli_fetch_array($result))
+									{
+										$_SESSION['username']=$row['username'];
+										echo"<script>location.href='panchayath.php'</script>";
+									}
+								
+							}
+							
+							else
+							{
+								echo"<script>alert('Does not exist the account')</script>";
+								echo"<script>location.href='index.php'</script>";
+							}
+						}
+						
+						
+						
 						else
-						{
-							echo"<script>alert('Does not exist the account')</script>";
-						}
+							{
+								echo"<script>alert('Not a user')</script>";
+								echo"<script>location.href='index.php'</script>";
+							}	
 					
 					}
 					?>

@@ -36,13 +36,15 @@ error_reporting("E_NOTICE");
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
-	</div>/
+	</div>
 
 	<!-- Header Section -->
 	<header class="header-section">
 	<div class="container">
 	<div class="header_box">
-	<div class="logo"><img src="img/ulogo.jpg" width="80" height="80"><a href="#"><strong style="font-size:24px"><font face="Monotype Corsiva" color="white" size="+5">COMPLAINT MANAGEMENT SYSTEM</font></strong></a></div>
+	<div class="logo"><img src="Complaint-management-system/image/cms.png" alt="" width="80" height="80">
+	<a href="#"><strong style="font-size:24px">
+	<font face="Monotype Corsiva" color="white" size="+5">COMPLAINT MANAGEMENT SYSTEM</font></strong></a></div>
 	
 
 	<a href="index.php" class="site-logo">
