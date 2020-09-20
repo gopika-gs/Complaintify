@@ -40,23 +40,20 @@ error_reporting("E_NOTICE");
 
 	<!-- Header Section -->
 	<header class="header-section">
-	<div class="container">
-	<div class="header_box">
-	<div class="logo"><img src="image/doradora.png" alt="" width="500" height="100">
-	
-	<a href="index.php" class="site-logo">
-					</a>
+		<a href="index.html" class="site-logo">
+			<img src="image/logo.png" alt="">
 		</a>
 		<nav class="header-nav">
 			<ul class="main-menu">
 				<li><a href="index.php" class="active">Home</a></li>
-				<li><a href="index.php?dynamic=aboutus">About</a></li>
-						<li><a href="index.php?dynamic=contact">Contact </a></li>
-						<li><a href="index.php?dynamic=feedback">Feedback</a></li>
-					</ul>
-				</li>
+				<li><a href="index.php?dynamic=aboutus">About Us</a></li>
+				<li><a href="index.php?dynamic=feedback">Feedback</a></li>
+				<li><a href="index.php?dynamic=contact">Contact</a></li>
 			</ul>
-			
+			<div class="header-right">
+				<a href="#" class="hr-btn"><i class="flaticon-013-mail"></i>Get in touch </a>
+				<div class="hr-btn hr-btn-2">complaintify@gmail.com</div>
+			</div>
 		</nav>
 	</header>
 	<!-- Header Section end -->
@@ -80,7 +77,11 @@ error_reporting("E_NOTICE");
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<div class="hs-text">					</div>
+					<div class="hs-text">
+						<h2 style="text-shadow: 2px 2px 13px #000000e6;">Want to submit a complaint?</h2>
+						<p style="text-shadow: 2px 2px 13px #000000e6;">Easly submit your complaints to complaintify fast and secure. Complaintify make sure your complaints are processed and notifies you when the authorities takes any action on the complaint you submitted.</p>
+						<a href="#" class="site-btn sb-dark">Find out more</a>
+					</div>
 				</div>
 				<div class="col-lg-6">
 					<form class="hero-form" method="post" enctype="multipart/form-data">
@@ -92,19 +93,22 @@ error_reporting("E_NOTICE");
 						<option>panchayath</option>
 						<option>coperation</option>
 						<option>muncipality</option>
-						</select><br><br><br>
-				<center><button class="site-btn" name="login" type="submit">Login </button></center><br>
-         <button class="site-btn"><a href="index.php?dynamic=forget">Forget password ?</a></button>
-		 <br /><br />
-		<button class="site-btn">Don't have an account?<a href="index.php?dynamic=signup">Sign up</a></button>
+						</select><br>
+						<center>
+							<button class="site-btn" name="login" type="submit">Login </button>
+							<a href="index.php?dynamic=signup"><button class="site-btn btn-outline" name="login" type="button">Sign up</button></a>
+						</center><br>
+						<center>
+         					<a style="text-transform: uppercase; font-weight: 700; color: #fff;" href="index.php?dynamic=forget">Forget password ?</a>
+						</center>
 					</form>
-					</div>
+				</div>
 			</div>
 		</div>
 		<div class="hero-slider owl-carousel">
-			<div class="hs-item set-bg" data-setbg="image/hero-slider/co.jpg"></div>
-			<div class="hs-item set-bg" data-setbg="image/hero-slider/complaintints.jpg"></div>
-			<div class="hs-item set-bg" data-setbg="image/hero-slider/citizen.jpg"></div>
+			<div class="hs-item set-bg" data-setbg="image/hero-slider/01.jpg"></div>
+			<div class="hs-item set-bg" data-setbg="image/hero-slider/02.jpg"></div>
+			<div class="hs-item set-bg" data-setbg="image/hero-slider/03.jpg"></div>
 		</div>
 	</section>
 	<!-- Hero Section end -->
@@ -215,7 +219,7 @@ error_reporting("E_NOTICE");
 					<h4>Feel free to contact us, we are here to help you</h4>
 					<a href="#" class="site-btn sb-big">Get in touch</a>				</div>
 			</div>
-			<img src="img/hand.png" alt="" class="hand-img">		</div>
+					</div>
 	</section>
 	<!-- Score Section end -->
 <?php
@@ -224,13 +228,10 @@ error_reporting("E_NOTICE");
 	<!-- Footer Section -->
 	<footer class="footer-section">
 		<div class="container">
-			
-			<div class="row">
-			</div>
-			
-			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="/" target="_blank">Complaintify</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+			<a href="index.html" class="footer-logo">
+				<img src="image/logo.png" alt="">
+			</a>
+			<div class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="/" target="_blank">Complaintify</a></div>
 		</div>
 	</footer>
 	<!-- Footer Section end -->

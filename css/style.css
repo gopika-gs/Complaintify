@@ -821,7 +821,7 @@ Footer section
  ---------------------*/
 
 .footer-section {
-	padding: 100px 0 0;
+	padding: 41px 0 0;
 	background: #22242b;
 }
 
@@ -832,7 +832,7 @@ Footer section
 
 .footer-logo {
 	display: inline-block;
-	margin-bottom: 50px;
+	margin-bottom: 17px;
 }
 
 .footer-widget {
@@ -860,7 +860,7 @@ Footer section
 .copyright {
 	color: #74757b;
 	font-size: 14px;
-	padding-bottom: 20px;
+	padding-bottom: 34px;
 }
 
 .copyright i {
@@ -1613,4 +1613,9 @@ Contact Page
 	.loans-text ul {
 		padding-left: 0;
 	}
+}
+
+.btn-outline{
+	background: transparent !important;
+	border: 2px solid #fff !important;
 }
