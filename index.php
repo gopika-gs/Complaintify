@@ -42,7 +42,7 @@ error_reporting("E_NOTICE");
 	<header class="header-section">
 	<div class="container">
 	<div class="header_box">
-	<div class="logo"><img src="image/doradora.png" alt="" width="500" height="100">
+	<div class="logo"><img src="image/doradora.png" alt="">
 	
 	<a href="index.php" class="site-logo">
 					</a>
@@ -215,7 +215,7 @@ error_reporting("E_NOTICE");
 					<h4>Feel free to contact us, we are here to help you</h4>
 					<a href="#" class="site-btn sb-big">Get in touch</a>				</div>
 			</div>
-			<img src="img/hand.png" alt="" class="hand-img">		</div>
+					</div>
 	</section>
 	<!-- Score Section end -->
 <?php
