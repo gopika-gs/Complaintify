@@ -4,7 +4,7 @@ error_reporting("E_NOTICE");
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>COMPLAINT MANAGEMENT SYSTEM </title>
+	<title>COMPLAINTIFY </title>
 	<meta charset="UTF-8">
 	<meta name="description" content="loans HTML Template">
 	<meta name="keywords" content="loans, html">
@@ -42,11 +42,8 @@ error_reporting("E_NOTICE");
 	<header class="header-section">
 	<div class="container">
 	<div class="header_box">
-	<div class="logo"><img src="Complaint-management-system/image/cms.png" alt="" width="80" height="80">
-	<a href="#"><strong style="font-size:24px">
-	<font face="Monotype Corsiva" color="white" size="+5">COMPLAINT MANAGEMENT SYSTEM</font></strong></a></div>
+	<div class="logo"><img src="image/doradora.png" alt="" width="500" height="100">
 	
-
 	<a href="index.php" class="site-logo">
 					</a>
 		</a>
@@ -105,9 +102,9 @@ error_reporting("E_NOTICE");
 			</div>
 		</div>
 		<div class="hero-slider owl-carousel">
-			<div class="hs-item set-bg" data-setbg="img/hero-slider/1.jpg"></div>
-			<div class="hs-item set-bg" data-setbg="img/hero-slider/2.jpg"></div>
-			<div class="hs-item set-bg" data-setbg="img/hero-slider/3.jpg"></div>
+			<div class="hs-item set-bg" data-setbg="image/hero-slider/co.jpg"></div>
+			<div class="hs-item set-bg" data-setbg="image/hero-slider/complaintints.jpg"></div>
+			<div class="hs-item set-bg" data-setbg="image/hero-slider/citizen.jpg"></div>
 		</div>
 	</section>
 	<!-- Hero Section end -->
