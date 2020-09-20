@@ -1619,3 +1619,19 @@ Contact Page
 	background: transparent !important;
 	border: 2px solid #fff !important;
 }
+
+.radio-label{
+	font-size: 15px !important;
+	font-style: initial !important;
+	font-weight: 700 !important;
+	color: #fff !important;
+	margin-bottom: 10px !important;
+}
+
+.radio-label input{
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	margin-right: 10px !important;
+}

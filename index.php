@@ -45,10 +45,10 @@ error_reporting("E_NOTICE");
 		</a>
 		<nav class="header-nav">
 			<ul class="main-menu">
-				<li><a href="index.php" class="active">Home</a></li>
-				<li><a href="index.php?dynamic=aboutus">About Us</a></li>
-				<li><a href="index.php?dynamic=feedback">Feedback</a></li>
-				<li><a href="index.php?dynamic=contact">Contact</a></li>
+				<li><a href="index.php" class="<?php if($_GET['dynamic']=='') echo 'active'; ?>">Home</a></li>
+				<li><a href="index.php?dynamic=aboutus" class="<?php if($_GET['dynamic']=='aboutus') echo 'active'; ?>">About Us</a></li>
+				<li><a href="index.php?dynamic=feedback" class="<?php if($_GET['dynamic']=='feedback') echo 'active'; ?>">Feedback</a></li>
+				<li><a href="index.php?dynamic=contact" class="<?php if($_GET['dynamic']=='contact') echo 'active'; ?>">Contact</a></li>
 			</ul>
 			<div class="header-right">
 				<a href="#" class="hr-btn"><i class="flaticon-013-mail"></i>Get in touch </a>
