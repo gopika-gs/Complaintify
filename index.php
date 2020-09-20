@@ -116,7 +116,7 @@ error_reporting("E_NOTICE");
 	<section class="why-section spad">
 		<div class="container">
 			<div class="text-center mb-5 pb-4">
-				<h2>Why Choose us?</h2>
+				<h2>Why to use us?</h2>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
@@ -125,8 +125,8 @@ error_reporting("E_NOTICE");
 							<i class="flaticon-012-24-hours"></i>
 						</div>
 						<div class="ib-text">
-							<h5>Money in 1 Hour!</h5>
-							<p>Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua. </p>
+							<h5>Complaint at Anytime</h5>
+							<p>Complaintify works everyday, 24*7. So you can register complaints anytime you want and from anywhere you like without any deals at all.</p>
 						</div>
 					</div>
 				</div>
@@ -136,8 +136,8 @@ error_reporting("E_NOTICE");
 							<i class="flaticon-036-customer-service"></i>
 						</div>
 						<div class="ib-text">
-							<h5>Helpfull Staff</h5>
-							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per incep-tos himenaeos. Suspendisse potenti. Ut gravida mattis.</p>
+							<h5>Fully Convenient</h5>
+							<p>No more frustration and waiting the lines for submitting complaints and wasting a lot of time. Complaintify makes it more easier.</p>
 						</div>
 					</div>
 				</div>
@@ -147,14 +147,14 @@ error_reporting("E_NOTICE");
 							<i class="flaticon-039-info"></i>
 						</div>
 						<div class="ib-text">
-							<h5>Credit History Considered</h5>
-							<p>Conubia nostra, per inceptos himenae os. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci.</p>
+							<h5>Faster than Ever</h5>
+							<p>Complaintify make sure your complaints are processed and notifies you when the authorities takes any action on the complaint you submitted.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="text-center pt-3">
-				<a href="#" class="site-btn sb-big">Apply Now!</a>
+				<a href="#" class="site-btn sb-big">Try it Now</a>
 			</div>
 		</div>
 	</section>
@@ -165,39 +165,39 @@ error_reporting("E_NOTICE");
 	<section class="help-section spad">
 		<div class="container">
 			<div class="text-center text-white mb-5 pb-4">
-				<h2>How a personal loan can help</h2>
+				<h2>How it works in background</h2>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec.</p>
+					<p>Complaintify lets you to submit complaints through our online portal to different government operated offices with ease. Through our complaint register you can easily send complaints without going to the actual office. After the submission, Complaintify sends the complaint to the assigned office and notifies the authorities to take action on it.</p>
 				</div>
 				<div class="col-md-6">
-					<p>Sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl.</p>
+					<p>Complaintify notifies you after the authorities makes any actions on it instantly without any delays. You can keep track of all you previous complaints and the actions taken upon them from the user-friendly admin panel without any worries. Your complaints will be safe and secure with us, Don't worry about any privacy issues.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<ul class="help-list">
-						<li>Buying a car</li>
-						<li>Take control of your finances</li>
-						<li>Pay school tuitions</li>
-						<li>Adding value to your home</li>
+						<li>100% Secure</li>
+						<li>No privacy issues</li>
+						<li>Faster than ever</li>
+						<li>No more queues</li>
 					</ul>
 				</div>
 				<div class="col-md-4">
 					<ul class="help-list">
-						<li>Increese your budget</li>
-						<li>Have a day to remember</li>
-						<li>Get a new card</li>
-						<li>Go on a holliday</li>
+						<li>No more delays</li>
+						<li>Notifies you instantly</li>
+						<li>User friendly</li>
+						<li>Works from anywhere</li>
 					</ul>
 				</div>
 				<div class="col-md-4">
 					<ul class="help-list">
-						<li>Get an Insurance</li>
-						<li>Take a trip</li>
-						<li>Help your kids</li>
-						<li>Renovate your home</li>
+						<li>24*7 portal</li>
+						<li>Live support team</li>
+						<li>Instant action</li>
+						<li>Unlimited complaints</li>
 					</ul>
 				</div>
 			</div>
@@ -214,9 +214,9 @@ error_reporting("E_NOTICE");
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-6 col-lg-8">
-					<h2>Calculate my Score</h2>
-					<h4>Check your credit reports as often as you want, it won't affect your scores.</h4>
-					<a href="#" class="site-btn sb-big">show my score</a>				</div>
+					<h2>Need more help?</h2>
+					<h4>Feel free to contact us, we are here to help you</h4>
+					<a href="#" class="site-btn sb-big">Get in touch</a>				</div>
 			</div>
 			<img src="img/hand.png" alt="" class="hand-img">		</div>
 	</section>
@@ -232,7 +232,7 @@ error_reporting("E_NOTICE");
 			</div>
 			
 			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="/" target="_blank">Complaintify</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 		</div>
 	</footer>
