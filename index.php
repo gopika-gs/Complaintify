@@ -40,7 +40,7 @@ error_reporting("E_NOTICE");
 
 	<!-- Header Section -->
 	<header class="header-section">
-		<a href="index.html" class="site-logo">
+		<a href="index.php" class="site-logo">
 			<img src="image/logo.png" alt="">
 		</a>
 		<nav class="header-nav">

@@ -3,7 +3,39 @@ error_reporting("NOTICE");
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
+<head>
+	<title>Complaintify</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="loans HTML Template">
+	<meta name="keywords" content="loans, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
 
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+ 
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header Section -->
+	
+	
+	
 	<!-- Contact Section end -->
 	<section class="contact-section spad">
 		<div class="container">
@@ -12,9 +44,14 @@ error_reporting("NOTICE");
 					
 				</div>
 				
+			
+	
 					<div class="contact-text">
 					<div class="col-lg-7">
 					<div class="about-text">
+					
+			
+	
 		                 <p><font face="Georgia, Times New Roman, Times, serif" size='+2'>
 						 This is Complaint Management System applicable to the 
 						citizen under
