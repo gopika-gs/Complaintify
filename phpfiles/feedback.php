@@ -57,14 +57,26 @@ error_reporting("NOTICE");
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
-					<img src="image/100.jpg" alt="">
+				
+					<img src="image/100.jpg">
 				</div>
 				<div class="col-lg-7">
-					<div class="about-text">
-						<h2>A team to help you</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl.</p>
-						<a href="#" class="site-btn">Find out more</a>
-					</div>
+					<div class="col-lg-8">
+					<form class="contact-form">
+						<div class="row">
+							<div class="col-md-6">
+								<input type="text" placeholder="Your Name">
+							</div>
+							<div class="col-md-6">
+								<input type="text" placeholder="Your E-mail">
+							</div>
+							<div class="col-md-12">
+								<textarea placeholder="Your Feedback"></textarea>
+								<button class="site-btn">send feedback</button>
+							</div>
+						</div>
+					</form>
+				</div>
 				</div>
 			</div>
 		</div>
