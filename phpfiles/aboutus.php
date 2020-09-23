@@ -52,13 +52,16 @@ error_reporting("NOTICE");
 			</nav>
 		</div>
 	</section>
+	
+	
+	
+	
 	<section class="about-section spad">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
 					<img src="img/about-img.jpg" alt="">
 				</div>
-					<div class="contact-text">
 					<div class="col-lg-7">
 					<div class="about-text">
 		                 <p><font face="Georgia, Times New Roman, Times, serif" size='+2'>
@@ -77,6 +80,11 @@ error_reporting("NOTICE");
 			</div>
 					
 	</section>
+	
+	
+	
+	
+	
 	</div>
 	</div>
 	
