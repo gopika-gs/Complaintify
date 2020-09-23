@@ -4,11 +4,12 @@ error_reporting("NOTICE");
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>Complaintify</title>
+	<title>LOANS2GO | Loans HTML Template</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="loans HTML Template">
 	<meta name="keywords" content="loans, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<!-- Favicon -->
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
@@ -25,33 +26,41 @@ error_reporting("NOTICE");
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
 
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 </head>
 <body>
 	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-
-	<!-- Header Section -->
 	
-	
-	
-	<!-- Contact Section end -->
 	<section class="contact-section spad">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
 					
-				</div>
 				
-			
-	
+				<!-- Page top Section end -->
+	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/1.jpg">
+		<div class="container">
+			<h2>About us</h2>
+			<nav class="site-breadcrumb">
+				<a class="sb-item" href="#">Home</a>
+				<span class="sb-item active">About us</span>
+			</nav>
+		</div>
+	</section>
+	<section class="about-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<img src="img/about-img.jpg" alt="">
+				</div>
 					<div class="contact-text">
 					<div class="col-lg-7">
 					<div class="about-text">
-					
-			
-	
 		                 <p><font face="Georgia, Times New Roman, Times, serif" size='+2'>
 						 This is Complaint Management System applicable to the 
 						citizen under
@@ -64,11 +73,14 @@ error_reporting("NOTICE");
 	   					</div>
 					</div>
 				</div>
-				<div class="col-lg-8">
-					
 			</div>
-			
-					</div>
+			</div>
+					
 	</section>
+	</div>
+	</div>
+	
+	</div>
+	</body>
 	<!-- Contact Section end -->
 </html>
