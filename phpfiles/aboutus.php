@@ -54,7 +54,7 @@ error_reporting("NOTICE");
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
-					<img src="image/07.jpg"  height="500" width="500" >
+					<img src="image/07.jpg" style="object-fit: cover;" height="500" width="500" >
 				</div>
 					<div class="col-lg-7">
 					<div class="about-text">
