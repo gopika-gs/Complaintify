@@ -4,7 +4,7 @@ error_reporting("NOTICE");
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>LOANS2GO | Loans HTML Template</title>
+	<title>Complaintify</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="loans HTML Template">
 	<meta name="keywords" content="loans, html">
@@ -33,16 +33,13 @@ error_reporting("NOTICE");
 	<![endif]-->
 
 </head>
+
+
+
 <body>
 	<!-- Page Preloder -->
 	
-	<section class="contact-section spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5">
-					
-				
-				<!-- Page top Section end -->
+	
 	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/1.jpg">
 		<div class="container">
 			<h2>About us</h2>
@@ -53,42 +50,37 @@ error_reporting("NOTICE");
 		</div>
 	</section>
 	
-	
-	
-	
 	<section class="about-section spad">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
-					<img src="img/about-img.jpg" alt="">
+					<img src="image/07.jpg"  height="500" width="500" >
 				</div>
 					<div class="col-lg-7">
 					<div class="about-text">
-		                 <p><font face="Georgia, Times New Roman, Times, serif" size='+2'>
-						 This is Complaint Management System applicable to the 
-						citizen under
-						 the Panchayth,Municipalities and Corporation in 
+		              <h2>A team to help you</h2>
+						<p> <font size="+1" >This is Complaintify , a complient management system to the 
+						citizen under the Panchayth,Municipalities and Corporation in 
 						our district.Any citizen can register and logon to the system and can add/enter complaints regarding some social issues
 						like polluting water bodies,dumping waste in public space,etc easily.He/She can also add some prevetion mechanisms or ideas
 						to recover from these situation .While complaining,the authorities monitor the complaints and take necessart actions to
-						avoid or overcome from these conditions.</font></p>
+						avoid or overcome from these conditions.</p></font>
 							
 	   					</div>
 					</div>
 				</div>
 			</div>
-			</div>
-					
 	</section>
 	
 	
 	
 	
 	
-	</div>
-	</div>
-	
-	</div>
 	</body>
-	<!-- Contact Section end -->
+	
+	
+	
+	
+	
+	
 </html>
