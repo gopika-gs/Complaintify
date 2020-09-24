@@ -57,8 +57,7 @@ error_reporting("NOTICE");
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
-				
-					<img src="image/100.jpg">
+				<img src="image/100.jpg" style="object-fit: cover;" height="500" width="500" >
 				</div>
 				<div class="col-lg-7">
 					<div class="col-lg-8">
@@ -99,8 +98,8 @@ error_reporting("NOTICE");
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia.</p>
-						<h6>Maria Smith, <span>25 min ago</span></h6>
+						<p>A good application to get your issues resolved. It just say your words in a different way and send it to somewhere it should be .I have solved many issues . Loved it</p>
+						<h6>Maria Smith, <span>35 min ago</span></h6>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
@@ -112,7 +111,7 @@ error_reporting("NOTICE");
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<p>Sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia.</p>
+						<p>STONGLEY RECOMMEND. My issues was solved with in a week. Before using this app ,I send complaint through mails. But they don't resolved and it take more than one month to realise. After using this website my complaint was solved with in a Week.. Quick response from them...  .</p>
 						<h6>Marta Black, <span>25 min ago</span></h6>
 					</div>
 				</div>
@@ -125,8 +124,8 @@ error_reporting("NOTICE");
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse po-tenti. Ut gravida mattis magna, non varius lorem sodales nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-						<h6>Carl Brown, <span>25 min ago</span></h6>
+						<p>It is very helpful app for them who want complaint or give compliment to a particular department..</p>
+						<h6>Carl Brown, <span>15 min ago</span></h6>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
@@ -138,8 +137,8 @@ error_reporting("NOTICE");
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<p>Per conubia nostra, per inceptos hime-naeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec.</p>
-						<h6>Paul David, <span>25 min ago</span></h6>
+						<p>Helped me with my complaints...thank you.</p>
+						<h6>Paul David, <span>10 min ago</span></h6>
 					</div>
 				</div>
 			</div>
@@ -148,120 +147,15 @@ error_reporting("NOTICE");
 	<!-- Review Section end -->
 	
 	<!-- Authorities Section end -->
-	<section class="authorities-section spad">
-		<div class="container">
-			<div class="text-center">
-				<h2>We’re regulated by these authorities</h2>
-			</div>
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="authoritie-item">
-						<img src="img/brands/1.png" alt="">
-						<h4>Financial Conduct Authority</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hime-naeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl.</p>
-						<a href="#" class="readmore">Apply for a loan now <img src="img/arrow.png" alt=""></a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="authoritie-item">
-						<img src="img/brands/2.png" alt="">
-						<h4>Prudential Regulation Authority</h4>
-						<p>Prudential Regulation Authority ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Pruden-tial Regulation Authority taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero.</p>
-						<a href="#" class="readmore">Apply for a loan now <img src="img/arrow.png" alt=""></a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="authoritie-item">
-						<img src="img/brands/3.png" alt="">
-						<h4>Peer-to-Peer Finance Association</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hime-naeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl.</p>
-						<a href="#" class="readmore">Apply for a loan now <img src="img/arrow.png" alt=""></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	
 	<!-- Authorities Section end -->
 
-	<!-- Score Section end -->
-	<section class="score-section text-white set-bg" data-setbg="img/score-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-6 col-lg-8">
-					<h2>Calculate my Score</h2>
-					<h4>Check your credit reports as often as you want, it won't affect your scores.</h4>
-					<a href="#" class="site-btn sb-big">show my score</a>
-				</div>
-			</div>
-			<img src="img/hand.png" alt="" class="hand-img">
-		</div>
+	
 	</section>
 	<!-- Score Section end -->
 
 	<!-- Footer Section -->
-	<footer class="footer-section">
-		<div class="container">
-			<a href="index.html" class="footer-logo">
-				<img src="img/logo.png" alt="">
-			</a>
-			<div class="row">
-				<div class="col-lg-3 col-sm-6">
-					<div class="footer-widget">
-						<h2>What we do</h2>
-						<ul>
-							<li><a href="#">Loans</a></li>
-							<li><a href="#">Car loans</a></li>
-							<li><a href="#">Debt consolidation loans</a></li>
-							<li><a href="#">Home improvement loans</a></li>
-							<li><a href="#"> Wedding loans</a></li>
-							<li><a href="#">Innovative Finance ISA</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="footer-widget">
-						<h2>About us</h2>
-						<ul>
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Our story</a></li>
-							<li><a href="#">Meet the board</a></li>
-							<li><a href="#">Meet the leadership team</a></li>
-							<li><a href="#">Awards</a></li>
-							<li><a href="#">Careers</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="footer-widget">
-						<h2>Legal</h2>
-						<ul>
-							<li><a href="#">Privacy policy</a></li>
-							<li><a href="#">Loans2go principles</a></li>
-							<li><a href="#">Website terms</a></li>
-							<li><a href="#">Cookie policy</a></li>
-							<li><a href="#">Conflicts policy</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="footer-widget">
-						<h2>Site Info</h2>
-						<ul>
-							<li><a href="#">Support</a></li>
-							<li><a href="#">FAQ</a></li>
-							<li><a href="#">Sitemap</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Contact us</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, ornare non nisl.</p>
-			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-		</div>
-	</footer>
+	
 	<!-- Footer Section end -->
 	
 	<!--====== Javascripts & Jquery ======-->
