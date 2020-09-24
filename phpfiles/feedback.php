@@ -98,7 +98,7 @@ error_reporting("NOTICE");
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<p>A good application to get your issues resolved. It just say your words in a different way and send it to somewhere it should be .I have solved many issues . Loved it</p>
+						<p>A good website to get your issues resolved. It just say your words in a different way and send it to somewhere it should be .I have solved many issues . Loved it</p>
 						<h6>Maria Smith, <span>35 min ago</span></h6>
 					</div>
 				</div>
@@ -111,7 +111,7 @@ error_reporting("NOTICE");
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<p>STONGLEY RECOMMEND. My issues was solved with in a week. Before using this app ,I send complaint through mails. But they don't resolved and it take more than one month to realise. After using this website my complaint was solved with in a Week.. Quick response from them...  .</p>
+						<p>STONGLEY RECOMMEND. My issues was solved with in a week. Before using this app ,I send complaint through mails. But they don't resolved and it take more than one month to realize. After using this website my complaint was solved with in a Week.. Quick response from them...  .</p>
 						<h6>Marta Black, <span>25 min ago</span></h6>
 					</div>
 				</div>
@@ -124,7 +124,7 @@ error_reporting("NOTICE");
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<p>It is very helpful app for them who want complaint or give compliment to a particular department..</p>
+						<p>It is very helpful website for them who want complaint or give compliment to a particular department..</p>
 						<h6>Carl Brown, <span>15 min ago</span></h6>
 					</div>
 				</div>
