@@ -1,5 +1,5 @@
 <div class="contact2">
-	<img src="images/location.jpg" style="background:image" id="contact">
+	<div class="contact2" style="background-image:url(images/location.jpg)" id="contact">
   <div class="container">
     <div class="row cotact-container">
       <div class="col-lg-12">
@@ -42,7 +42,7 @@
                 </form>
               </div>
             </div>
-            <div class="col-lg-4 bg-image" style="background-image:url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/1.jpg)">
+            <div class="col-lg-4 bg-image" style="background-image:url(images/111.jpg)">
               <div class="detail-box p-4">
                 <h5 class="text-white font-weight-light mb-3">ADDRESS</h5>
                 <p class="text-white op-7">601 Sherwood Ave.
@@ -51,7 +51,7 @@
                 <p class="text-white op-7">251 546 9442
                   <br> 630 446 8851</p>
                 <div class="round-social light">
-                  <a href="#" class="ml-0 text-decoration-none text-white border border-white rounded-circle"><i class="icon-social-facebook"></i></a>
+                  <a href="#" class="ml-0 text-decoration-none text-white border border-white rounded-circle"><i class="fa fa-facebook-square"></i></a>
                   <a href="#" class="text-decoration-none text-white border border-white rounded-circle"><i class="icon-social-twitter"></i></a>
                   <a href="#" class="text-decoration-none text-white border border-white rounded-circle"><i class="icon-social-youtube"></i></a>
                 </div>
