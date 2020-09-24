@@ -1,5 +1,5 @@
 <div class="contact2">
-	<div class="contact2" style="background-image:url(images/location.jpg)" id="contact">
+	<div class="contact2" style="background-image:url(images/55.jpg)" id="contact">
   <div class="container">
     <div class="row cotact-container">
       <div class="col-lg-12">
