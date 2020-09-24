@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row cotact-container">
       <div class="col-lg-12">
-        <div class="card card-shadow border-0 mb-4">
+        <div class="card card-shadow border-0 mb-4" style="margin-top:100px;">
           <div class="row">
             <div class="col-lg-8">
               <div class="contact-box p-4">
@@ -36,7 +36,7 @@
                       </div>
                     </div>
                     <div class="col-lg-12">
-                      <button type="submit" class="btn btn-danger-gradiant mt-3 mb-3 text-white border-0 py-2 px-3"><span> SUBMIT NOW <i class="ti-arrow-right"></i></span></button>
+                     <button class="site-btn" name="Submit" type="submit">submit </button>
                     </div>
                   </div>
                 </form>
@@ -59,6 +59,12 @@
             </div>
           </div>
         </div>
+		<br>
+		<br />
+		<br />
+		<br />
+		<br>
+		<br>
       </div>
     </div>
   </div>
