@@ -749,7 +749,7 @@ Help section
 
 .help-list li::after {
 	position: absolute;
-	content: url(../img/ok-icon.png);
+	content: url(../images/ok-icon.png);
 	left: 0;
 	top: -1px;
 }
@@ -1025,7 +1025,7 @@ Loans Page
 
 .loans-text ul li:after {
 	position: absolute;
-	content: url("../img/check-icon.png");
+	content: url("../images/check-icon.png");
 	left: 0;
 	top: 2px;
 }
