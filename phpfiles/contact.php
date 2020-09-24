@@ -34,22 +34,25 @@ error_reporting("NOTICE");
 
 </head>
 <body>
-	<!-- Page top Section end -->
-	<section class="page-top-section set-bg" data-setbg="image/page-top-bg/2.jpg">
+
+
+	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/1.jpg">
 		<div class="container">
-			<h2>Contact us</h2>
+			<h2>About us</h2>
 			<nav class="site-breadcrumb">
 				<a class="sb-item" href="#">Home</a>
-				<span class="sb-item active">Contact us</span>
+				<span class="sb-item active">About us</span>
 			</nav>
 		</div>
-	<section class="about-section spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5">
-				
-				</div>
-    <div class="row contact-container">
+	</section>
+
+
+
+
+	<div class="contact2">
+	<img src="image/location.jpg" style="background:image" id="contact"
+  <div class="container">
+    <div class="row cotact-container">
       <div class="col-lg-12">
         <div class="card card-shadow border-0 mb-4">
           <div class="row">
@@ -111,10 +114,5 @@ error_reporting("NOTICE");
     </div>
   </div>
 </div>
-
-	
-	<!-- Header Section end -->
-
-	
 	</body>
 </html>
