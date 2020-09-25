@@ -9,7 +9,7 @@
 </section>
 
 
-<div class="contact3 py-5">
+<div class="contact3">
   <div class="row no-gutters">
     <div class="container">
     <div class="row">
@@ -20,27 +20,27 @@
         </div>
         <div class="col-lg-6">
           <div class="contact-box ml-3" style="margin-top:100px;">
-            <h1 class="font-weight-light mt-2">Quick Contact</h1>
+            <h1 class="font-weight-light mt-2" style="font-size: 47px;">Quick Contact</h1>
             <form class="mt-4">
               <div class="row">
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control" type="text" placeholder="name">
+                    <input class="form-control form-input-border" type="text" placeholder="name">
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control" type="email" placeholder="email address">
+                    <input class="form-control form-input-border" type="email" placeholder="email address">
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control" type="text" placeholder="phone">
+                    <input class="form-control form-input-border" type="text" placeholder="phone">
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <textarea class="form-control" rows="3" placeholder="message"></textarea>
+                    <textarea class="form-control form-input-border" rows="3" placeholder="message"></textarea>
                   </div>
                 </div>
                 <div class="col-lg-12">
