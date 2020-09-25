@@ -22,10 +22,10 @@
                     </select><br>
                     <center>
                         <button class="site-btn" name="login" type="submit">Login </button>
-                        <a href="index.php?dynamic=signup"><button class="site-btn btn-outline" name="login" type="button">Sign up</button></a>
+                        <a href="?page=signup"><button class="site-btn btn-outline" name="login" type="button">Sign up</button></a>
                     </center><br>
                     <center>
-                        <a style="text-transform: uppercase; font-weight: 700; color: #fff;" href="index.php?dynamic=forget">Forget password ?</a>
+                        <a style="text-transform: uppercase; font-weight: 700; color: #fff;" href="?page=forget">Forget password ?</a>
                     </center>
                 </form>
             </div>
@@ -140,8 +140,9 @@
             <div class="col-xl-6 col-lg-8">
                 <h2>Need more help?</h2>
                 <h4>Feel free to contact us, we are here to help you</h4>
-                <a href="#" class="site-btn sb-big">Get in touch</a>				</div>
+                <a href="#" class="site-btn sb-big">Get in touch</a>
             </div>
         </div>
+    </div>
 </section>
 <!-- Score Section end -->

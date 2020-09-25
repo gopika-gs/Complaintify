@@ -46,7 +46,7 @@
 
 
 <?php
-	include_once("frameword/connection.php");
+	include_once("framework/connection.php");
 	if(isset($_POST['login']))
 	{
 		$user=$_POST['username'];
@@ -58,7 +58,7 @@
 			if(mysqli_num_rows($result)>0){
 				while($row=mysqli_fetch_array($result)){
 					$_SESSION['username']=$row['username'];
-					echo"<script>location.href='admin.php'</script>";
+					echo"<script>location.href='pages/admin.php'</script>";
 				}
 			}
 			else {
@@ -72,12 +72,12 @@
 			if(mysqli_num_rows($result)>0){
 				while($row=mysqli_fetch_array($result)){
 					$_SESSION['username']=$row['username'];
-					echo"<script>location.href='user.php'</script>";
+					echo"<script>location.href='pages/user.php'</script>";
 				}
 			}
 			else{
 				echo"<script>alert('Does not exist the account')</script>";
-				echo"<script>location.href='index.php'</script>";
+				echo"<script>location.href='pages/index.php'</script>";
 			}
 		}
 		else if($type == 'panchayath'){
@@ -87,7 +87,7 @@
 			{
 				while($row=mysqli_fetch_array($result)){
 					$_SESSION['username']=$row['username'];
-					echo"<script>location.href='panchayath.php'</script>";
+					echo"<script>location.href='pages/panchayath.php'</script>";
 				}
 				
 			}
@@ -102,7 +102,7 @@
 			if(mysqli_num_rows($result)>0){
 				while($row=mysqli_fetch_array($result)){
 					$_SESSION['username']=$row['username'];
-					echo"<script>location.href='user.php'</script>";
+					echo"<script>location.href='pages/user.php'</script>";
 				}	
 			}
 			else{
@@ -116,7 +116,7 @@
 			if(mysqli_num_rows($result)>0){
 				while($row=mysqli_fetch_array($result)){
 					$_SESSION['username']=$row['username'];
-					echo"<script>location.href='panchayath.php'</script>";
+					echo"<script>location.href='pages/panchayath.php'</script>";
 				}
 			}
 			else{
