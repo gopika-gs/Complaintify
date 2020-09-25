@@ -11,7 +11,7 @@
         </ul>
         <div class="header-right">
             <a href="#" class="hr-btn"><i class="flaticon-013-mail"></i>Get in touch </a>
-            <div class="hr-btn hr-btn-2">complaintify@gmail.com</div>
+            <div class="hr-btn hr-btn-2">complaintify20@gmail.com</div>
         </div>
     </nav>
 </header>
