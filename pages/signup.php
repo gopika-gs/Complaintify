@@ -23,12 +23,12 @@
               <div class="row">
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control form-input-border" type="text" placeholder="Name">
+                    <input class="form-control form-input-border" name="nametype="text" placeholder="Name">
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control form-input-border" type= "number" placeholder="Aadhar Id">
+                    <input class="form-control form-input-border"  name="aadhar" type= "number" placeholder="Aadhar Id">
                   </div>
                 </div>
                 <div class="col-lg-12">
@@ -39,22 +39,22 @@
                <input type="radio" id="other" name="gender" value="other">
                   <label for="other">Other</label>
 				    <div class="form-group mt-2">
-                    <input class="form-control form-input-border" type="text" placeholder="Address">
+                    <input class="form-control form-input-border" name="address" type="text" placeholder="Address">
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control form-input-border" type="number" placeholder="Phone">
+                    <input class="form-control form-input-border"  name="phone" type="number" placeholder="Phone">
                     </div>
                   </div>
                   <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input  class="form-control form-input-border" type="email id" placeholder="Email Id">
+                    <input  class="form-control form-input-border"  name="email" type="email id" placeholder="Email Id">
                     </div>
                   </div>
                   <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input  class="form-control form-input-border" type="password" placeholder="Set your password">
+                    <input  class="form-control form-input-border" name="password" type="password" placeholder="Set your password">
                     </div>
                   </div>
 
