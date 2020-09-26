@@ -1,4 +1,7 @@
-<?php error_reporting("E_NOTICE"); ?>
+<?php 
+	error_reporting("E_NOTICE");
+	include_once("framework/connection.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -46,7 +49,6 @@
 
 
 <?php
-	include_once("framework/connection.php");
 	if(isset($_POST['login']))
 	{
 		$user=$_POST['username'];

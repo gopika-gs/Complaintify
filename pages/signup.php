@@ -29,6 +29,7 @@
 </section>
 
 <?php
+	include_once('framework/connection.php');
 	if($_POST['submit']){ 
 		$name=$_POST['name'];
 		$id=$_POST['aadhar']; 
@@ -37,8 +38,10 @@
 		$ph=$_POST['phone'];
 		$mail=$_POST['email'];
 		$pass=$_POST['password'];
-		$sql="insert into signup values('','$name','$id','$gen','$add','$ph','$mail','$pass')";
+		$sql="insert into signup values(null,'$name','$id','$gen','$add','$ph','$mail','$pass')";
 		mysqli_query($conn,$sql);
+		print_r($sql);
+		exit;
 		echo "<script>alert('Registered Successfully');</script>";
 		echo "<script>window.location='index.php';</script>";
 	}
