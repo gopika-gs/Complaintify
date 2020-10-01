@@ -632,6 +632,7 @@ Hero section
 .hero-form {
 	background: #22242b;
 	padding: 63px 42px 73px;
+	padding-bottom: 34px;
 }
 
 .hero-form input {
@@ -1645,4 +1646,35 @@ Contact Page
 	color: #838383;
 	font-style: italic;
 	border-radius: 0px;
+}
+
+.form-title{
+	color: #fff;
+	font-size: 43px;
+	font-weight: 100;
+	margin-top: -38px;
+	margin-bottom: 23px;
+}
+
+.form-subtitle{
+	color: #ffffff;
+	font-weight: 100;
+	font-size: 19px;
+	opacity: 0.4;
+	margin-top: -19px;
+	margin-bottom: 20px;
+}
+
+.complaint-card{
+	margin-top: 26px;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.server-mark{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	mix-blend-mode: exclusion;
+	width: 110px;
+	z-index: 99999;
 }

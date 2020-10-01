@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.9.4
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Feb 23, 2020 at 09:01 AM
--- Server version: 10.1.40-MariaDB
--- PHP Version: 7.2.18
+-- Host: localhost:3306
+-- Generation Time: Oct 01, 2020 at 04:14 PM
+-- Server version: 5.7.24
+-- PHP Version: 7.2.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,60 +25,114 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `admin`
+-- Table structure for table `complaints`
 --
 
-CREATE TABLE `admin` (
-  `username` varchar(15) NOT NULL,
-  `password` int(10) NOT NULL
+CREATE TABLE `complaints` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `status` int(11) NOT NULL DEFAULT '0',
+  `department` int(11) NOT NULL COMMENT ' 	0 => cooperation, 1 => panchayath, 2 => muncipality 	',
+  `locality_id` int(11) NOT NULL,
+  `timestamp` varchar(30) NOT NULL,
+  `subject` varchar(120) NOT NULL,
+  `description` mediumtext NOT NULL,
+  `remark` mediumtext
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `signup`
+-- Table structure for table `localities`
 --
 
-CREATE TABLE `signup` (
-  `Id` int(11) NOT NULL,
-  `Name` varchar(10) NOT NULL,
-  `Aadhar` int(12) NOT NULL,
-  `Gender` varchar(6) NOT NULL,
-  `Address` text NOT NULL,
-  `Phone_no` int(10) NOT NULL,
-  `Email` varchar(20) NOT NULL,
-  `Password` varchar(10) NOT NULL
+CREATE TABLE `localities` (
+  `id` int(11) NOT NULL,
+  `department` int(11) NOT NULL COMMENT '0 => cooperation, 1 => panchayath, 2 => muncipality',
+  `name` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `signup`
+-- Dumping data for table `localities`
 --
 
-INSERT INTO `signup` (`Id`, `Name`, `Aadhar`, `Gender`, `Address`, `Phone_no`, `Email`, `Password`) VALUES
-(1, 'gopika', 1234567, 'female', 'xyz,vellanad.p.o', 1234567, 'gopika @gmail.com', '56789'),
-(2, 'name', 7654, 'ff', 'add', 908, 'mail', 'pass'),
-(3, 'ram', 5464654, 'jk', 'hugkugk', 897456, 'gopika@gmail.com', 'kljkjhj'),
-(4, 'gopika', 64665465, 'female', 'gugygy', 2147483647, 'gopika@gmail.com', '12345');
+INSERT INTO `localities` (`id`, `department`, `name`) VALUES
+(1, 0, 'tvpm');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `is_admin` int(11) NOT NULL DEFAULT '0' COMMENT '0 => no, 1 => yes',
+  `locality_id` int(11) DEFAULT NULL,
+  `authority_status` int(11) NOT NULL DEFAULT '0' COMMENT '0 => no, 1 => verfication pending, 2 => yes',
+  `username` varchar(30) NOT NULL,
+  `name` varchar(30) NOT NULL,
+  `type` varchar(30) NOT NULL,
+  `password` varchar(30) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `mobile_no` varchar(10) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `aadhar_no` varchar(12) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `is_admin`, `locality_id`, `authority_status`, `username`, `name`, `type`, `password`, `email`, `mobile_no`, `address`, `aadhar_no`) VALUES
+(1, 1, NULL, 0, 'admin', 'Main Admin', 'user', 'admin', 'complaintify20@gmail.com', '9999999999', 'Sample address', '111222333444');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `signup`
+-- Indexes for table `complaints`
 --
-ALTER TABLE `signup`
-  ADD PRIMARY KEY (`Id`,`Aadhar`);
+ALTER TABLE `complaints`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `localities`
+--
+ALTER TABLE `localities`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `locality` (`name`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `username` (`username`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT for table `signup`
+-- AUTO_INCREMENT for table `complaints`
 --
-ALTER TABLE `signup`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+ALTER TABLE `complaints`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- AUTO_INCREMENT for table `localities`
+--
+ALTER TABLE `localities`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
