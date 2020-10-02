@@ -31,7 +31,7 @@
         </div>
         <div class="col-lg-12">
             <div class="form-group mt-2">
-                <input class="form-control form-input-border" oninput="this.value=this.value.replace(/[^0-9]/g,'');" pattern=".{10,}" required name="mobile-no" maxlength="12" type="text" placeholder="Phone">
+                <input class="form-control form-input-border" oninput="this.value=this.value.replace(/[^0-9]/g,'');" pattern=".{10,}" required name="mobile-no" maxlength="10" type="text" placeholder="Phone">
             </div>
         </div>
         <div class="col-lg-12">
