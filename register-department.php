@@ -28,7 +28,7 @@
         <section class="elements-section pt-5 pb-5">
             <div class="container" style="padding-bottom: 20px;">
                 <?php if(isset($_GET["status"])) if($_GET["status"]=="failed"){ ?>
-                    <div class="blog-date">Something went wrong while creating compalint</div>
+                    <div class="blog-date">Something went wrong while creating department</div>
                 <?php } ?>
 
                 <?php if(isset($_GET["status"])) if($_GET["status"]=="success"){ ?>
